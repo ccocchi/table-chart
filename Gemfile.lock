@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    table-chart (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.9.1)
+    minitest (5.14.4)
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  benchmark-ips
+  bundler (~> 2.2.5)
+  minitest (~> 5.0)
+  rake (~> 13.0)
+  table-chart!
+
+BUNDLED WITH
+   2.2.5
