@@ -44,6 +44,7 @@ class Table
     @ary[i * width + j]
   end
   alias_method :[], :call
+  alias_method :cell, :call
 
   def []=(i, j, val)
     @ary[i * width + j] = val

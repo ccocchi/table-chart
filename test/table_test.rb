@@ -47,7 +47,7 @@ class TableTest < Minitest::Test
   end
 
   def test_accessing_non_cubic_cells
-    assert_equal 2, @t2.(0, 1)
+    assert_equal 2, @t2.cell(0, 1)
     assert_equal 6, @t2[1, 2]
   end
 
